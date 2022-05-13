@@ -20,7 +20,7 @@ export default function Home() {
                   <div className="align-self-center header-col-left">
                      <div id="logo">
                         <a href="#section-hero">
-                        <img src={`images/background/Clean-Hedge-logo.png`} alt="me" width="auto" height="45" />
+                        <img src={`images/background/Clean-Hedge-logo-black.png`} alt="me" width="auto" height="45" />
                         </a>
                      </div>
                   </div>
@@ -61,11 +61,11 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <div className="de-video-overlay">
+            <div class="de-video-overlay"></div>
                <video autoPlay loop muted>
                  <source src="videos/Home_Page_Video.mp4" type="video/mp4"/>
                </video>
-            </div>
+            
          </div>
          <a href="#section-about" className="scroll-to">
          <span className="mouse">
@@ -79,15 +79,15 @@ export default function Home() {
          <div className="row align-items-center">
             <div className="col-lg-6 mb-sm-30 text-center">
                <div className="de-images">
-                  <img className="di-small-2 wow fadeInLeft" src={`images/background/mountain_1.jpg`} alt="" width="auto" height="130" />
-                  <img className="img-fluid wow fadeInRight" src={`images/background/mountain.jpg`} alt="" width="auto" height="504" />
+                  <img className="di-small-2 wow fadeInLeft" src={`images/background/mountain_2.webp`} alt="" width="auto" height="130" />
+                  <img className="img-fluid wow fadeInRight" src={`images/background/mountain_1.webp`} alt="" width="auto" height="504" />
                </div>
             </div>
             <div className="col-lg-5 offset-md-1 wow fadeInLeft" data-wow-delay=".5s">
                <h2>About Us</h2>
-               <p>Clean Hedge is your one-stop solution for all your Sustainable Management needs. We specialize in Nature based policy advocacy, environmental strategy, and carbon offset/capture
-                  based portfolio management. We work with businesses to incentivize your green energy investments by offering customized consulting services. With 7 years of experience in Solar Industry, we have a portfolio of 100MW+ Solar Based Projects. 
-               </p>
+               <p className={'txt'}>Clean-Hedge with its expertise in the clean-tech domain provides legal, and economic advocacy to its clients alongside the technical know-how required to fill in with the compliance burden and monetise on the GHG offsetting.</p>
+               <p className={'txt'}>Clean-hedge due to its prior industry experience in the renewable energy sector can assist through ESG, CSR and other compliances.</p>
+               <p className={'txt'}>Clean-Hedge provides the company's portfolio management service which includes helping in the registration of projects involving carbon offsetting, documentation, evaluation and information about the lucrative market opportunities for carbon trading and investment helping the company upgrade technologically and achieve the net-zero carbon emissions.</p>
                <div className="spacer-10"></div>
             </div>
          </div>
@@ -158,9 +158,9 @@ export default function Home() {
          </div>
       </div>
    </section>
-   <section id="section-contact" className="no-bg" >
-      <div className="container" >
-         <div className="row" >
+   <section id="section-contact" className="no-bg">
+      <div className="container">
+         <div className="row">
             <div className="col-lg-6 offset-lg-3" >
                <div className="text-center" >
                   <h2>Contact Us</h2>
@@ -169,8 +169,11 @@ export default function Home() {
                </div>
             </div>
          </div>
-         <form name="contactForm" id="contact_form" className="row form-default" method="post" action="email.php">
-            <div className="col-md-6" >
+         <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+            <form name="contactForm" id="contact_form" className="row form-default" method="post" action="email.php">
+            <div className="col-md-12" >
                <div className="field-set" >
                   <input type="text" name="name" id="name" className="form-control" placeholder="Your Name" />
                   <div className="line-fx" ></div>
@@ -184,21 +187,22 @@ export default function Home() {
                   <div className="line-fx" ></div>
                </div>
             </div>
-            <div className="col-md-6" >
+            <div className="col-md-12" >
                <div className="field-set" >
                   <textarea name="message" id="message" className="form-control" placeholder="Your Message"></textarea>
                   <div className="line-fx" ></div>
                </div>
             </div>
             <div className="spacer-single" ></div>
-            <div className="col-md-12 text-center" >
-               <div id="submit" >
-                  <input type="submit" id="send_message" value="Submit Form" className="btn btn-custom color-2" />
-               </div>
+            <div className="col-md-12 text-center">
+            <input type="submit" id="send_message" value="Submit Form" className="btn btn-custom color-2" />
                <div id="mail_success" className="success" >Your message has been sent successfully.</div>
                <div id="mail_fail" className="error" >Sorry, error occured this time sending your message.</div>
             </div>
          </form>
+            </div>
+        </div>
+    </div>
          <div className="spacer-double" ></div>
          <div className="row text-center wow fadeInUp animated" >
             <div className="col-md-4" >

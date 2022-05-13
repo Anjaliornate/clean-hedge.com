@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.txt {
+  font-family: 'Nunito';
+  text-align: justify;
+  font-size: medium;
+  
+}
