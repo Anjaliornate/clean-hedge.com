@@ -87,7 +87,7 @@ export default function Home() {
                <h2>About Us</h2>
                <p className={'txt'}>Clean-Hedge with its expertise in the clean-tech domain provides legal, and economic advocacy to its clients alongside the technical know-how required to fill in with the compliance burden and monetise on the GHG offsetting.</p>
                <p className={'txt'}>Clean-hedge due to its prior industry experience in the renewable energy sector can assist through ESG, CSR and other compliances.</p>
-               <p className={'txt'}>Clean-Hedge provides the company's portfolio management service which includes helping in the registration of projects involving carbon offsetting, documentation, evaluation and information about the lucrative market opportunities for carbon trading and investment helping the company upgrade technologically and achieve the net-zero carbon emissions.</p>
+               <p className={'txt'}>Clean-Hedge provides the companys portfolio management service which includes helping in the registration of projects involving carbon offsetting, documentation, evaluation and information about the lucrative market opportunities for carbon trading and investment helping the company upgrade technologically and achieve the net-zero carbon emissions.</p>
                <div className="spacer-10"></div>
             </div>
          </div>
