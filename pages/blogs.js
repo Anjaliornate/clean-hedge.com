@@ -1,7 +1,24 @@
-import React from 'react'
+function Profile() {
+  const [data, setData] = useState(null)
+  const [isLoading, setLoading] = useState(false)
 
-export default function blogs() {
+  useEffect(() => {
+    setLoading(true)
+    fetch('http://localhost:1337/api/blogs/')
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data)
+        setLoading(false)
+      })
+  }, [])
+
+  if (isLoading) return <p>Loading...</p>
+  if (!data) return <p>No profile data</p>
+
   return (
-    <div>blogs</div>
+    <div>
+      <h1>{data.name}</h1>
+      <p>{data.bio}</p>
+    </div>
   )
 }
