@@ -61,7 +61,7 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <div class="de-video-overlay"></div>
+            <div className="de-video-overlay"></div>
                <video autoPlay loop muted>
                  <source src="videos/Home_Page_Video.mp4" type="video/mp4"/>
                </video>
@@ -87,7 +87,7 @@ export default function Home() {
                <h2>About Us</h2>
                <p className={'txt'}>Clean-Hedge with its expertise in the clean-tech domain provides legal, and economic advocacy to its clients alongside the technical know-how required to fill in with the compliance burden and monetise on the GHG offsetting.</p>
                <p className={'txt'}>Clean-hedge due to its prior industry experience in the renewable energy sector can assist through ESG, CSR and other compliances.</p>
-               <p className={'txt'}>Clean-Hedge provides the company's portfolio management service which includes helping in the registration of projects involving carbon offsetting, documentation, evaluation and information about the lucrative market opportunities for carbon trading and investment helping the company upgrade technologically and achieve the net-zero carbon emissions.</p>
+               <p className={'txt'}>Clean-Hedge provides the companys portfolio management service which includes helping in the registration of projects involving carbon offsetting, documentation, evaluation and information about the lucrative market opportunities for carbon trading and investment helping the company upgrade technologically and achieve the net-zero carbon emissions.</p>
                <div className="spacer-10"></div>
             </div>
          </div>
@@ -169,9 +169,9 @@ export default function Home() {
                </div>
             </div>
          </div>
-         <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-6">
+         <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-sm-6">
             <form name="contactForm" id="contact_form" className="row form-default" method="post" action="email.php">
             <div className="col-md-12" >
                <div className="field-set" >
