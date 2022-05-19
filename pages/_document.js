@@ -16,7 +16,6 @@ class MyDocument extends Document {
         <meta content="" name="description" />
         <meta content="" name="keywords" />
         <meta content="" name="author" />
-        {/* CSS Files */}
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
