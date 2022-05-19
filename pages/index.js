@@ -61,7 +61,7 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <div class="de-video-overlay"></div>
+            <div className="de-video-overlay"></div>
                <video autoPlay loop muted>
                  <source src="videos/Home_Page_Video.mp4" type="video/mp4"/>
                </video>
@@ -169,9 +169,9 @@ export default function Home() {
                </div>
             </div>
          </div>
-         <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-6">
+         <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-sm-6">
             <form name="contactForm" id="contact_form" className="row form-default" method="post" action="email.php">
             <div className="col-md-12" >
                <div className="field-set" >
