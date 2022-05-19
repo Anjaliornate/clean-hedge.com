@@ -171,7 +171,7 @@ export default function Home() {
          <div className="container">
         <div className="row justify-content-center">
             <div className="col-sm-6">
-            <form name="contactForm" id="contact_form" className="row form-default" method="post" action="email.php">
+            <form name="contactForm" id="contact_form" className="row form-default" method="POST" action="https://formspree.io/f/xknykavd">
             <div className="col-md-12" >
                <div className="field-set" >
                   <input type="text" name="name" id="name" className="form-control" placeholder="Your Name" />
@@ -192,9 +192,9 @@ export default function Home() {
                   <div className="line-fx" ></div>
                </div>
             </div>
-            <div className="spacer-single" ></div>
+            <div className="spacer-single"></div>
             <div className="col-md-12 text-center">
-            <input type="submit" id="send_message" value="Submit Form" className="btn btn-custom color-2" />
+            <input type="submit" className="btn btn-custom color-2" />
                <div id="mail_success" className="success" >Your message has been sent successfully.</div>
                <div id="mail_fail" className="error" >Sorry, error occured this time sending your message.</div>
             </div>
