@@ -164,8 +164,6 @@ export default function Home() {
             <div className="col-lg-6 offset-lg-3" >
                <div className="text-center" >
                   <h2>Contact Us</h2>
-                  
-                  {/* <p>Lorems ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
                   <div className="spacer-30" ></div>
                </div>
             </div>
