@@ -26,10 +26,10 @@ export default function Home() {
                   </div>
                   <div className="align-self-center ml-auto header-col-mid">
                      <ul id="mainmenu" className="scrollnav">
-                        <li><a href="#section-hero" className="active">Home</a></li>
-                        <li><a href="#section-about">About</a></li>
-                        <li><a href="#section-services">Services</a></li>
-                        <li><a href="#section-contact">Contact</a></li>
+                        <li><a href="#section-hero" className="active">HOME</a></li>
+                        <li><a href="#section-about">ABOUT US</a></li>
+                        <li><a href="#section-services">SERVICES</a></li>
+                        <li><a href="#section-contact">CONTACT US</a></li>
                         <li></li>
                      </ul>
                   </div>
@@ -85,9 +85,9 @@ export default function Home() {
             </div>
             <div className="col-lg-5 offset-md-1 wow fadeInLeft" data-wow-delay=".5s">
                <h2>About Us</h2>
-               <p className={'txt'}>Clean-Hedge with its expertise in the clean-tech domain provides legal, and economic advocacy to its clients alongside the technical know-how required to fill in with the compliance burden and monetise on the GHG offsetting.</p>
-               <p className={'txt'}>Clean-hedge due to its prior industry experience in the renewable energy sector can assist through ESG, CSR and other compliances.</p>
-               <p className={'txt'}>Clean-Hedge provides the companys portfolio management service which includes helping in the registration of projects involving carbon offsetting, documentation, evaluation and information about the lucrative market opportunities for carbon trading and investment helping the company upgrade technologically and achieve the net-zero carbon emissions.</p>
+               <p className={'txt'}>Clean-Hedge with its expertise in the clean-tech domain provides policy and economic advocacy to its clients alongside the technical know-how required to fit in with the compliances and disclosure mandates, additionally monetising on the Green House Gases offsetting.</p>
+               <p className={'txt'}>With climate change getting worse by the day, carbon offset becoming an integral part of all industries and a unified focus on transitioning towards net-zero policies across all domains, we understand your need for an organization that simplifies your work by providing a transparent and simplified plan of action to fast-track your journey towards sustainability.</p>
+               <p className={'txt'}>CleanHedge provides a one-stop solution for all your Sustainability needs. We specialize in developing and managing Renewable Energy, Nature-based and Community based carbon offset projects. Additionally, we provide portfolio management services for Carbon Credits and policy advocacy consultation for ESG(Environmental, Social and Corporate Governance) policies as per your needs!</p>
                <div className="spacer-10"></div>
             </div>
          </div>
@@ -100,13 +100,21 @@ export default function Home() {
       </center>
       <div className="cards">
          <div className="card">
+            <img src={`images/background/CO2.webp.png`} alt="" />
+            <p className="card-desc">
+               {/* <b>Carbon capture project development- add on</b><br/><br/> */}
+               <b>Facilitating implementation of Direct Air capture and nature-based carbon sequestration projects.</b><br/>Coming soon…
+            </p>
+            <h6 className="card-title">Carbon capture project development</h6>
+         </div>
+         <div className="card">
             <img src={`images/background/02%20png.png`} alt="" />
             <p className="card-desc">
                <b>We manage your portfolio by</b><br/><br/>
-               <b>-Facilitating</b> exchange<br/>
-               <b>-Identifying</b> potential buyers<br/>
-               <b>-Assessing</b> current carbon status<br/>
-               <b>-Registering</b> credits on global platforms
+               <b>Facilitating</b> exchange<br/>
+               <b>Identifying</b> potential buyers<br/>
+               <b>Assessing</b> current carbon status<br/>
+               <b>Registering</b> credits on global platforms
             </p>
             <h6 className="card-title">Carbon Credit Portfolio Management</h6>
          </div>
@@ -114,12 +122,12 @@ export default function Home() {
             <img src={`images/background/09%20png.png`} alt="" />
             <p className="card-desc">
                <b>As consultants we assist airports with active carbon management which includes</b><br />
-               -Mapping<br/>
-               -Reduction<br/>
-               -Neutrality<br/>
-               -Transition<br/>
-               -Transformation<br/>
-               -Optimization<br/>
+               Mapping<br/>
+               Reduction<br/>
+               Neutrality<br/>
+               Transition<br/>
+               Transformation<br/>
+               Optimization<br/>
             </p>
             <h6 className="card-title">Airport Carbon Accreditation</h6>
          </div>
@@ -128,11 +136,11 @@ export default function Home() {
          <div className="card">
             <img src={`images/background/06 png.png`} alt="" />
             <p className="card-desc">
-               <b>We develop, implement and audit Carbon offset/capture projects such as</b><br/><br/>
-               -Solar/Wind/Hydro Power Plant<br/>
-               -Biomass Projects<br/>
-               -Nature based solutions<br/>
-               -Energy Efficiency Systems
+               <b>We develop, implement and audit Carbon offset</b><br/><br/>
+               Solar/Wind/Hydro Power Plant<br/>
+               Biomass Projects<br/>
+               Nature based solutions<br/>
+               Energy Efficiency Systems
             </p>
             <h6 className="card-title">Carbon Offsetting/Capture Project Development</h6>
          </div>
@@ -140,9 +148,9 @@ export default function Home() {
             <img src={`images/background/03 png.png`} alt="" />
             <p className="card-desc">
                <b>Assist planning and auditing projects related to-</b><br/><br/>
-               -Zero Waste Discharge<br/>
-               -Zero Liquid Discharge<br/>
-               -Net Zero Methodology Implementation<br/>
+               Zero Waste Discharge<br/>
+               Zero Liquid Discharge<br/>
+               Net Zero Methodology Implementation<br/>
             </p>
             <h6 className="card-title">Net Zero methodology implementation</h6>
          </div>
@@ -150,11 +158,11 @@ export default function Home() {
             <img src={`images/background/08 png.png`} alt="" />
             <p className="card-desc">
                <b>We perform LCAs for all relevant products by</b><br/><br/>
-               -Defining goal and scope<br/>
-               -Life cycle Inventory Analysis<br/>
-               -Life cycle Impact Assessment<br/>
+               Defining goal and scope<br/>
+               Life cycle Inventory Analysis<br/>
+               Life cycle Impact Assessment<br/>
             </p>
-            <h6 className="card-title">Carbon Credit Portfolio Management</h6>
+            <h6 className="card-title">Life-cycle Assessments</h6>
          </div>
       </div>
    </section>
@@ -164,6 +172,7 @@ export default function Home() {
             <div className="col-lg-6 offset-lg-3" >
                <div className="text-center" >
                   <h2>Contact Us</h2>
+                  <p>To Know More</p>
                   <div className="spacer-30" ></div>
                </div>
             </div>
