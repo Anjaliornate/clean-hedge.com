@@ -4,7 +4,7 @@ export default function Error() {
   return (
     <>
     <div id="main">
-        <div class="fof">
+        <div className="fof">
             <div id="logo">
 				<a href="/"> <img src={`images/background/Clean-Hedge-logo-black.png`} alt="" width="auto" height="45" /> </a>
 			</div>
