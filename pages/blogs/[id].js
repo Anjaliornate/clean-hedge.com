@@ -1,19 +1,16 @@
 
 export default function blog({data}) {
-    console.log(data)
     return (
     <>
     <div className="col-m-12">
     {data.map((post,index)=>{
-
-    // var today = new Date(post['date']).toLocaleDateString();
     
     return (
         <div>
         <div className="container">
 	<div className="row">
 		<div className="col-md-9">
-			<div className="card"><img src={post[ '_embedded'][ 'wp:featuredmedia'][0][ 'source_url']} class="card-img-top" style={{height: '500px'}}/>
+			<div className="card"><img src={post[ '_embedded'][ 'wp:featuredmedia'][0][ 'source_url']} className="card-img-top" style={{height: '500px'}}/>
 				<div className="card-body">
 					<h5 className="card-title">{post['title']['rendered']}</h5>
 					<div className="card-text" dangerouslySetInnerHTML={{__html:post[ 'content'][ 'rendered']}}></div>
