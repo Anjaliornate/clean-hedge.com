@@ -18,7 +18,7 @@ export default function Home() {
 					<div className="d-flex justify-content-between">
 						<div className="align-self-center header-col-left">
 							<div id="logo">
-								<a href="/"> <img src={`images/background/Clean-Hedge-logo-black.png`} alt="me" width="auto" height="45" /> </a>
+								<a href=""> <img src={`images/background/Clean-Hedge-logo-black.png`} alt="me" width="auto" height="45" /> </a>
 							</div>
 						</div>
 						<div className="align-self-center ml-auto header-col-mid">
