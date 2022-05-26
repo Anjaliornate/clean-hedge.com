@@ -10,13 +10,13 @@ export default function blog({data}) {
     
     return (
         <div>
-        <div class="container">
-	<div class="row">
-		<div class="col-md-9">
-			<div class="card"><img src={post[ '_embedded'][ 'wp:featuredmedia'][0][ 'source_url']} class="card-img-top" style={{height: '500px'}}/>
-				<div class="card-body">
+        <div className="container">
+	<div className="row">
+		<div className="col-md-9">
+			<div className="card"><img src={post[ '_embedded'][ 'wp:featuredmedia'][0][ 'source_url']} class="card-img-top" style={{height: '500px'}}/>
+				<div className="card-body">
 					<h5 class="card-title">{post['title']['rendered']}</h5>
-					<div class="card-text" dangerouslySetInnerHTML={{__html:post[ 'content'][ 'rendered']}}></div>
+					<div className="card-text" dangerouslySetInnerHTML={{__html:post[ 'content'][ 'rendered']}}></div>
 				</div>
 			</div>
 		</div>
