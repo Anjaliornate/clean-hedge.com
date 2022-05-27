@@ -24,8 +24,8 @@ export default function blog({data}){
                             </div>
                         </div>
                         <div className="row">
-                        {data.map((post)=>{
-                                return <Link href={`/blogs/${post['slug']}`}>
+                        {data.map((post,index)=>{
+                                return <Link key={index} href={`/blogs/${post['slug']}`}>
                                 <div className="col-lg-4 col-md-6 mb30">
                                 <div className="bloglist item">
                                     <div className="post-content">
