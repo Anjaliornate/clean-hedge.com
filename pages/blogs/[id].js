@@ -31,4 +31,4 @@ export async function getServerSideProps(context) {
     const res = await fetch(`https://blog.ted.com/wp-json/wp/v2/posts?_embed&slug=${id}`);
     const data = await res.json();
     return {props: {data}}
-}
+};
