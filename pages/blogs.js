@@ -25,8 +25,8 @@ export default function blog({data}){
                             </div>
                         </div>
                         <div className="row">
-                        {data.map((post,id)=>{
-                                return <Link key={id} href={`/blogs/${post['slug']}`}>
+                        {data.map((post, index)=>{
+                                return <Link key={index} href={`/blogs/${post['slug']}`}>
                                 <div className="col-lg-4 col-md-6 mb30">
                                 <div className="bloglist item">
                                     <div className="post-content">
@@ -60,8 +60,8 @@ export default function blog({data}){
 }
 
 
-export async function getServerSideProps(){
-    const getPosts = await fetch('https://blog.ted.com/wp-json/wp/v2/posts?_embed');
-    const data =await getPosts.json();
-    return {props: {data}}
-}
+// export async function getServerSideProps(){
+//     const getPosts = await fetch('https://blog.ted.com/wp-json/wp/v2/posts?_embed');
+//     const data =await getPosts.json();
+//     return {props: {data}}
+// }
