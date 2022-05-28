@@ -3,9 +3,9 @@ export default function blog({data}) {
      return (
      <>
      <div className="col-m-12">
-     {data.map((post,index)=>{
+     {data.map((post, index)=>{
     
-     return (
+     return ( 
          <div>
          <div className="container">
  	<div className="row">
