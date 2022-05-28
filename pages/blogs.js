@@ -25,8 +25,8 @@
                              </div>
                          </div>
                          <div className="row">
-                         {data.map((post, index)=>{
-                                 return <Link key={index} href={`/blogs/${post['slug']}`}>
+                         {data.map((post,id)=>{
+                                 return <Link key={id} href={`/blogs/${post['slug']}`}>
                                  <div className="col-lg-4 col-md-6 mb30">
                                  <div className="bloglist item">
                                      <div className="post-content">
@@ -48,12 +48,6 @@
                              })}
                          </div>
                      </div>
-                     <center>   
-         <div className="pagination">
-             <a href="#" >&laquo;</a>
-             <a href="#"  className="active" >1</a>
-         </div>
-     </center>
                  </section> 
              </div>            
      )
@@ -61,7 +55,7 @@
 
 
   export async function getServerSideProps(){
-      const getPosts = await fetch('https:blog.ted.com/wp-json/wp/v2/posts?_embed');
+      const getPosts = await fetch('https://www.teamvariance.com/wp-json/wp/v2/posts?_embed');
       const data =await getPosts.json();
       return {props: {data}}
   }

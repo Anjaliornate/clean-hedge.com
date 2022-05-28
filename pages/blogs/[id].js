@@ -3,7 +3,7 @@ export default function blog({data}) {
      return (
      <>
      <div className="col-m-12">
-     {data.map((post, index)=>{
+     {data.map((post)=>{
     
      return ( 
          <div>
@@ -28,7 +28,7 @@ export default function blog({data}) {
 
  export async function getServerSideProps(context) {
      const {id} = context.params;
-     const res = await fetch(`https:blog.ted.com/wp-json/wp/v2/posts?_embed&slug=${id}`);
+     const res = await fetch(`https://www.teamvariance.com/wp-json/wp/v2/posts?_embed&slug=${id}`);
      const data = await res.json();
      return {props: {data}}
  }
