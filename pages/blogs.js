@@ -1,6 +1,8 @@
  import Link from "next/link";
  import Header from "../components/header";
  import '../styles/Home.module.css'
+ import React from "react";
+
 
  export default function blog({data}){
      console.log(data)
