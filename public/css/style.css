@@ -2820,7 +2820,7 @@ span.teaser {
 .text-light,
 .text-light p,
 .text-light p.lead {
-	color: #ffffff;
+	color: #000000;
     
 }
 
@@ -2836,7 +2836,7 @@ span.teaser {
 	color: #fff;
 }
 .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6 {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 .de_light .text-light h1, .de_light .text-light h2, .de_light .text-light h4, .de_light .text-light h4, .de_light .text-light h5, .de_light .text-light h6 {
 	color: #fff;

@@ -1,13 +1,22 @@
-import React from "react";
+import "../Home.module.css";
 
 export default function blog({data}) {
      console.log(data)
      return (
      <>
-     <div className="col-m-12">
-         
+
+{/*  */}
+<div class="card" style={{width:"18rem;"}}>
+  <img src="..." class="card-img-top" alt="..." />
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+{/*  */}
+
+
+     <div className="col-m-12"> 
      {data.map((post,id)=>{
-    
      return ( 
          <div key={id}>
          <div className="container">
@@ -25,13 +34,17 @@ export default function blog({data}) {
          </div>);
      })}
      </div>
+
+     
+
+
      </>
      )
  };
 
  export async function getServerSideProps(context) {
      const {id} = context.params;
-     const res = await fetch(`https://www.teamvariance.com/wp-json/wp/v2/posts?_embed&slug=${id}`);
+     const res = await fetch(`https://bilberrry.com/wp-json/wp/v2/posts?_embed&slug=${id}`);
      const data = await res.json();
      return {props: {data}}
  }
