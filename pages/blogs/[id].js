@@ -1,5 +1,3 @@
-import "../Home.module.css";
-
 export default function blog({data}) {
      console.log(data)
      return (
@@ -23,10 +21,6 @@ export default function blog({data}) {
          </div>);
      })}
      </div>
-
-     
-
-
      </>
      )
  };
