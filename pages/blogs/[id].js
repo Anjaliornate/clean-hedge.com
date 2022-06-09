@@ -1,17 +1,53 @@
+import Header from "../../components/header"; 
+import React from 'react'
+import Head from "next/head";
+
 export default function blog({data}) {
      console.log(data)
      return (
      <>
-     <div className="col-m-12"> 
-     {data.map((post,id)=>{
+       <Head>
+        <link rel="shortcut icon" href="../images/background/favicon.ico.png" />
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+        <link href="../css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+        <link href="../css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="../css/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="../css/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="../css/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="../css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <link href="../css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" />
+        <link id="colors" href="../css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+        <link href="../css/coloring.css" rel="stylesheet" type="text/css" />
+      </Head>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script src="../js/jquery.isotope.min.js"></script>
+        <script src="../js/easing.js"></script>
+        <script src="../js/owl.carousel.js"></script>
+        <script src="../js/validation.js"></script>
+        <script src="../js/jquery.magnific-popup.min.js"></script>
+        <script src="../js/enquire.min.js"></script>
+        <script src="../js/jquery.stellar.min.js"></script>
+        <script src="../js/jquery.plugin.js"></script>
+        <script src="../js/typed.js"></script>
+        <script src="../js/jquery.countTo.js"></script>
+        <script src="../js/jquery.countdown.js"></script>
+        <script src="../js/designesia.js"></script>
+     <Header></Header>
+     
+     {data.map((post,index)=>{
      return ( 
-         <div key={id}>
+         <div key={index}>
          <div className="container">
  	<div className="row">
- 		<div className="col-md-9">
- 			<div className="card" key={post.id}><img src={post[ '_embedded'][ 'wp:featuredmedia'][0][ 'source_url']} className="card-img-top" style={{height: '500px'}}/>
+ 		<div className="col-md-12">
+ 			<div className="card-md-12" style={{marginTop:"20%"}}><img src={post[ '_embedded'][ 'wp:featuredmedia'][0][ 'source_url']} className="card-img-top" style={{height: '500px'}}/>
  				<div className="card-body">
- 					<h5 className="card-title">{post['title']['rendered']}</h5>
+ 					<h1 className="card-title">{post['title']['rendered']}</h1>
  					<div className="card-text" dangerouslySetInnerHTML={{__html:post[ 'content'][ 'rendered']}}></div>
  				</div>
  			</div>
@@ -20,10 +56,10 @@ export default function blog({data}) {
  </div>
          </div>);
      })}
-     </div>
      </>
      )
  };
+
 
  export async function getServerSideProps(context) {
      const {id} = context.params;

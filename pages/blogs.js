@@ -25,8 +25,8 @@
                             </div>
                         </div>
                         <div className="row">
-                        {data.map((post,id)=>{
-                                return <a key={id} href={`/blogs/${post['slug']}`}>
+                        {data.map((post,index)=>{
+                                return <a key={index} href={`/blogs/${post['slug']}`}>
                                 <div className="row vk" style={{paddingBottom:"3%;" , paddingTop:"3%;" , backgroundColor:"white;" , marginTop:"3%" , borderRadius:"20px" , boxShadow: '0 2px 15px 0 rgb(2 2 2 / 7%)'}}>
                                 <div className="col-md-6">
                                 <div className="bloglist item">
