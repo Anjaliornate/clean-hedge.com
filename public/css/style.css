@@ -8053,6 +8053,7 @@ section .color-overlay {
 }
 p {
 	margin-bottom: 20px;
+	font-family:Nunito;
 }
 p.intro {
 	color: #555;
@@ -10883,3 +10884,18 @@ h1 {
 
 .gtxt{
 color:red;}
+
+/* custom css For Blog Detail Page */
+
+.blog-title{
+	color: #000;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.description-text{
+	color: #000;
+	font-size:15px;
+	text-align: justify;
+	font-family: 'Nunito';
+}
