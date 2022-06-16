@@ -48,7 +48,6 @@
                                             <span className="btn-custom">Read More</span>
                                         </div>
                             </div>
-      
                             </div>
                             </a>
                             })}
