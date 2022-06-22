@@ -67,7 +67,7 @@ export default function blog({data}) {
 
  export async function getServerSideProps(context) {
      const {id} = context.params;
-     const res = await fetch(`https://kinsta.com/wp-json/wp/v2/posts?_embed&slug=${id}`);
+     const res = await fetch(`http://65.0.181.105/wp-json/wp/v2/posts?_embed&slug=${id}`);
      const data = await res.json();
      return {props: {data}}
  }
