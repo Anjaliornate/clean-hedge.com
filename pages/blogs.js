@@ -61,11 +61,10 @@
 }
 
   export async function getServerSideProps(){
-      const getPosts = await fetch('http://65.0.181.105/wp-json/wp/v2/posts?_embed');
+      const getPosts = await fetch('https://kinsta.com/wp-json/wp/v2/posts?_embed&per_page=100'); 
       const data =await getPosts.json();
       return {props: {data}}
       
   }
-
 
   
