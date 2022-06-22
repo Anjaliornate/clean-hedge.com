@@ -1,4 +1,5 @@
  import Header from "../components/header";
+ import Footer from "../components/footer";
  import '../styles/Home.module.css';
  import React from 'react';
 
@@ -19,7 +20,7 @@
                             <div className="col-lg-6 offset-lg-3">
                                 <div className="text-center">
                                     <h2>Our Blog</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p></p>
                                     <div className="spacer-30"></div>
                                 </div>
                             </div>
@@ -43,7 +44,7 @@
                             <div className="col-md-6">
                             <div className="post-text">
                                             <h4 className="btext">{post['title']['rendered']}</h4>
-                                            <div className="text-gray-600" dangerouslySetInnerHTML={{__html:post['excerpt']['rendered']}}></div>
+                                            <div className="text-gray-600" dangerouslySetInnerHTML={{__html:post ['excerpt']['rendered']}}></div>
                                             <div className="spacer-60"></div>
                                             <span className="btn-custom">Read More</span>
                                         </div>
@@ -53,12 +54,18 @@
                             })}
                         </div>
                     </div>
-                </section> 
+                </section>
+                <Footer></Footer>
             </div>            
     )   
 }
+
   export async function getServerSideProps(){
-      const getPosts = await fetch('http://65.0.181.105/wp-json/wp/v2/posts?_embed');
+      const getPosts = await fetch('https://kinsta.com/wp-json/wp/v2/posts?_embed&per_page=100');
       const data =await getPosts.json();
       return {props: {data}}
+      
   }
+
+
+  
