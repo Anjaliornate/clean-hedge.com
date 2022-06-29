@@ -61,7 +61,7 @@
 }
 
   export async function getServerSideProps(){
-      const getPosts = await fetch('https://kinsta.com/wp-json/wp/v2/posts?_embed'); 
+      const getPosts = await fetch('https://blog.clean-hedge.com/wp-json/wp/v2/posts?_embed'); 
       const data =await getPosts.json();
       return {props: {data}}
       
