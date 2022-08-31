@@ -2487,9 +2487,9 @@ h1, h2, h4, h3, h5, h6,
 footer.footer-light h5, header.header-light div#logo a,
 header.smaller.scroll-light div#logo a {
 	margin-top:0;
-	font-family: "Poppins";
+	font-family: 'Nunito';
 	font-weight: bold;
-	color: #35404e;
+	color: #000;
 }
 footer h1, footer h2, footer h4, footer h4, footer h5, footer h6 {
 	color: #fff;
@@ -2562,11 +2562,8 @@ h2 .small-border {
 	width: 40px;
 }
 h2 {
-	margin-top:0;
-	margin-bottom:10px;
-	font-size: 40px;
-	line-height:48px;
-	letter-spacing:-1px;
+	font-size: 23px;
+	color: #000;
 }
 h2.big{
 	font-size:48px;
@@ -2602,7 +2599,7 @@ h2.deco-text .xl {
 	font-size: 150px;
 }
 h3 {
-	font-size: 24px;
+	font-size: 20px;
 	margin-bottom: 25px;
 }
 h4 {
@@ -10811,7 +10808,7 @@ a, img {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family:'Nunito';
 }
 
 
