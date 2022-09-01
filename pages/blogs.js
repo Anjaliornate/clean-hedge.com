@@ -34,9 +34,9 @@
                                     <div className="post-content">
                                         <div className="post-image">
                                             <img src={post['_embedded']['wp:featuredmedia'][0]['source_url']} style={{height:"280px"}}></img>
-                                            <div className="post-info">
+                                            {/* <div className="post-info">
                                                    <div className="inner"><span className="post-date">1 hours ago</span> <span className="post-author">Nidhi Sharma</span></div>
-                                               </div>
+                                               </div> */}
                                     </div>
                                 </div>
                                 </div>
