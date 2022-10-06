@@ -1,4 +1,4 @@
-import Header from "../../components/header"; 
+import Blog_detail_header from "../../components/blog_detail_header";
 import Footer from "../../components/footer";
 import React from 'react'
 import Head from "next/head";
@@ -39,7 +39,7 @@ export default function blog({data}) {
         <script src="../js/jquery.countTo.js"></script>
         <script src="../js/jquery.countdown.js"></script>
         <script src="../js/designesia.js"></script>
-     <Header></Header>
+     <Blog_detail_header></Blog_detail_header>
      
      {data.map((post,index)=>{
      return ( 

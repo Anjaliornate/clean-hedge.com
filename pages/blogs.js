@@ -1,4 +1,4 @@
- import Header from "../components/header";
+ import Blog_header from "../components/blog_header";
  import Footer from "../components/footer";
  import '../styles/Home.module.css';
  import React from 'react';
@@ -8,7 +8,7 @@
     return (
 
 <div>
-<Header />
+<Blog_header />
 <div id="loader-area">
                     <div className="container">
                         <div className="project-load"></div>
