@@ -52,7 +52,7 @@ export default function Home() {
 								</div>
 								<div className="spacer-30"></div>
 								<div className="col-md-6 offset-md-3 text-center">
-									<p className="h1_big text-white" data-wow-delay=".75s">Accelerating<br/>Sustainability</p>
+									<p className="h1_big text-white" data-wow-delay=".75s">You Can Make a<br/>Difference.</p>
 									<div className="spacer-50"></div> <a className="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" href="#section-about">About Us</a> </div>
 							</div>
 						</div>
@@ -67,120 +67,124 @@ export default function Home() {
 			</a>
 		</section>
 	</div>
-	<section id="section-about" data-bgcolor="White">
-		<div className="container">
-			<div className="row align-items-center">
-				<div className="col-lg-6 mb-sm-30 text-center">
-					<div className="de-images"> <img className="di-small-2 wow fadeInLeft" src={`images/background/mountain_2.webp`} alt="" width="auto" height="130" /> <img className="img-fluid wow fadeInRight" src={`images/background/mountain_1.webp`} alt="" width="auto" height="504" /> </div>
-				</div>
-				<div className="col-lg-5 offset-md-1 wow fadeInLeft" data-wow-delay=".5s">
-					<h2>About<span className="id-color"> Us</span></h2>
-					<p className={ 'txt'}>Clean-Hedge with its expertise in the clean-tech domain provides policy and economic advocacy to its clients alongside the technical know-how required to fit in with the compliances and disclosure mandates, additionally monetising on the Green House Gases offsetting.</p>
-					<p className={ 'txt'}>With climate change getting worse by the day, carbon offset becoming an integral part of all industries and a unified focus on transitioning towards net-zero policies across all domains, we understand your need for an organization that simplifies your work by providing a transparent and simplified plan of action to fast-track your journey towards sustainability.</p>
-					<p className={ 'txt'}>CleanHedge provides a one-stop solution for all your Sustainability needs. We specialize in developing and managing Renewable Energy, Nature-based and Community based carbon offset projects. Additionally, we provide portfolio management services for Carbon Credits and policy advocacy consultation for ESG(Environmental, Social and Corporate Governance) policies as per your needs!</p>
-					<div className="spacer-10"></div>
-				</div>
-			</div>
-		</div>
-	</section>
 
-   <section className="service-three" data-bgcolor="#f3f4f4">
+{/* One Stop Solution Section Start*/}
+<section id="section-about" data-bgcolor="White">
+  <div className="container">
+    <div className="v-center">
+      <h2>One Stop Solution for <span className="id-color"> All Your Sustainability Needs</span>
+      </h2>
+    </div>
+    <div className="row align-items-center">
+      <div className="col-lg-6 mb-sm-30 text-center">
+        <div className="de-images">
+          <img className="di-small-2 wow fadeInLeft" src={`images/background/mountain_2.webp`} alt="" width="auto" height="130" />
+          <img className="img-fluid wow fadeInRight" src={`images/background/mountain_1.webp`} alt="" width="auto" height="504" />
+        </div>
+      </div>
+      <div className="col-lg-5 offset-md-1 wow fadeInLeft" data-wow-delay=".5s">
+        <p className={ 'txt' }>The world is facing a planet-sized carbon problem. But while reducing our carbon footprint is the need of the hour, we understand that immediate reduction in emissions isn’t always feasible.</p>
+        <p className={ 'txt' }>Building carbon efficiency is a complex, time-consuming process, that CleanHedge can streamline for you.</p>
+        <p className={ 'txt' }>We develop and implement sustainable projects that reduce, remove or avoid carbon dioxide emissions. From solar, wind, and biogas projects to community-led fuel saving initiatives, we devise ventures that have a measurable impact on the environment.</p>
+        <p className={ 'txt' }>In doing so, we generate carbon credits to offset your carbon footprint.</p>
+        <div className="spacer-10"></div>
+      </div>
+    </div>
+  </div>
+</section>
+{/* One Stop Solution Section End*/}
+
+
+{/* What are Carbon Credits Section Start*/}
+<section id="section-about" data-bgcolor="#f3f4f4">
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-lg-5 offset-md-0 wow fadeInLeft" data-wow-delay=".5s">
+        <h2>What are <span className="id-color"> Carbon Credits?</span>
+        </h2>
+        <p className={ 'txt' }>Carbon credits are permits to release a certain amount of carbon dioxide or any other greenhouse gas into the atmosphere. They represent an equal amount of C02 that has been reduced or eliminated from the environment through sustainable projects.</p>
+        <p className={ 'txt' }>One credit is equivalent to 1 tonne of CO2.</p>
+        <p className={ 'txt' }>These tradable units are not chained by geographical boundaries. This means an organization that cannot directly take steps towards sustainability, can invest in green projects across the world to still keep its net-zero commitment.</p>
+        <div className="spacer-10"></div>
+      </div>
+      <div className="col-lg-6 offset-md-1 mb-sm-30 text-center">
+        <div className="de-images">
+          <img className="img-fluid wow fadeInRight" src={`images/background/Carbon_Credits.webp`} alt="" width="auto" height="504" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{/* What are Carbon Credits Section End*/}
+
+
+{/* What do We Offer Section Start*/}
+<section id="section-services" data-bgcolor="White">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet" />
+  <center>
+    <h2>What do <span className="id-color"> We Offer?</span>
+    </h2>
+  </center>
+  <div className="cards">
+    <div className="card">
+      <img src={`images/background/CO2.webp.png`} alt="" />
+      {/* <p className="card-desc"></p> */}
+      <h6 className="card-title">Carbon<br/>Offset Projects</h6>
+    </div>
+    <div className="card">
+      <img src={`images/background/02%20png.png`} alt="" />
+      {/* <p className="card-desc"></p> */}
+      <h6 className="card-title">Carbon Credit Registration <br /> and Trading Services for Existing Projects </h6>
+    </div>
+    <div className="card">
+      <img src={`images/background/Energy.png`} alt="" />
+      {/* <p className="card-desc"></p> */}
+      <h6 className="card-title">Energy<br/>Efficiency Solutions</h6>
+    </div>
+  </div>
+</section>
+{/* What do We Offer Section End*/}
+
+
+{/* Why Choose CleanHedge Section Start*/}
+<section className="service-three" data-bgcolor="#f3f4f4">
 	<div className="container">
 		<div className="block-title text-center">
 			<center>
-				<h2>Why<span className="id-color"> Clean-Hedge</span></h2> </center>
+				<h2>Why Choose<span className="id-color"> CleanHedge?</span></h2> </center>
 			<div className="spacer-50"></div>
 		</div>
-		<div className="row high-gutters" id="myDIV">
+		<div className="row high-gutters">
 			<div className="col-lg-4">
 				<div className="service-three__single wow flipInY" data-wow-delay="300ms" data-wow-duration="1500ms">
 					<div className="service-three__icon">
-						<div className="service-three__single-circle"></div> <img src="" alt="" /> </div>
-					<h5>Impactful Investment</h5>
-					<p className={ 'txt'}>The ESG domain is massive and provides multiple options which are filtered and then recommended as per your needs and portfolio.</p>
+						<div className="service-three__single-circle"></div><center><img src={`images/background/Variety.webp`} class="img-size" alt="" /></center></div>
+						<center><h5>Variety!</h5></center>
+					<p className={ 'txtj'}>We can implement a diverse portfolio of nature and community-based projects across multiple sectors to widen your impact.</p>
 				</div>
 			</div>
 			<div className="col-lg-4">
 				<div className="service-three__single wow flipInY" data-wow-delay="0ms" data-wow-duration="1500ms">
 					<div className="service-three__icon">
-						<div className="service-three__single-circle"></div> <img src="" alt="" /> </div>
-					<h5>Variety!</h5>
-					<p className={ 'txt'}>We have developed projects in multiple sectors which ensures zero limitations with regards to choosing a project that checks all the boxes for you. Starting from generic Renewable Energy projects with Solar, Wind and Hydroelectric plants to community-based projects with fisheries, we’ve got it covered.</p>
+						<div className="service-three__single-circle"></div><center><img src={`images/background/personalized.webp`} class="img-size" alt="" /></center></div>
+						<center><h5>Personalized</h5></center>
+					<p className={ 'txtj'}>CleanHedge recommends projects that match your requirements and check all the right boxes for your company.</p>
 				</div>
 			</div>
 			<div className="col-lg-4">
 				<div className="service-three__single wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
 					<div className="service-three__icon">
-						<div className="service-three__single-circle"></div> <img src="" alt="" /> </div>
-					<h5>Personalized Insights and Forecasting.</h5>
-					<p className={ 'txt'}>We constantly monitor and provide real-time updates on your investments which ensure adherence to project deadlines(for climate finance projects) and also assure timely liquidation of your investment and maximum return on investment (for Carbon Credit Portfolio).</p>
+						<div className="service-three__single-circle"></div><center><img src={`images/background/monitoring.webp`} class="img-size" alt="" /></center></div>
+						<center><h5>Transparent</h5></center>
+					<p className={ 'txtj'}>We ensure complete transparency in our operations, so you know that your money is making an actual impact.</p>
 				</div>
 			</div>
 		</div>
-		<div className="spacer-30"></div>
-		<center>
-			<blockquote className="testimonial-big">Making Sustainability simpler, one ton at a time.</blockquote>
-		</center>
 	</div>
 </section>
+{/* Why Choose CleanHedge Section End */}
 
-	<section id="section-services" data-bgcolor="White">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet" />
-		<center>
-			<h2>Our<span className="id-color"> Services</span></h2> </center>
-		<div className="cards">
-			<div className="card"> <img src={`images/background/CO2.webp.png`} alt="" />
-				 <p className="card-desc"> <b>Facilitating implementation of Direct Air capture and nature-based carbon sequestration projects.</b>
-					<br/>
-					<br/>Coming soon… </p>
-				<h6 className="card-title">Carbon Capture Project Development</h6> </div>
-			<div className="card"> <img src={`images/background/02%20png.png`} alt="" />
-				<p className="card-desc"> <b>We manage your portfolio by</b>
-					<br/>
-					<br/> <b>Facilitating</b> exchange
-					<br/> <b>Identifying</b> potential buyers
-					<br/> <b>Assessing</b> current carbon status
-					<br/> <b>Registering</b> credits on global platforms </p>
-				<h6 className="card-title">Carbon Credit Portfolio Management</h6> </div>
-			<div className="card"> <img src={`images/background/09%20png.png`} alt="" />
-				<p className="card-desc"> <b>As consultants we assist airports with active carbon management which includes</b>
-					<br /> Mapping
-					<br/> Reduction
-					<br/> Neutrality
-					<br/> Transition
-					<br/> Transformation
-					<br/> Optimization
-					<br/> </p>
-				<h6 className="card-title">Airport Carbon Accreditation</h6> </div>
-		</div>
-		<div className="cards">
-			<div className="card"> <img src={`images/background/06 png.png`} alt="" />
-				<p className="card-desc"> <b>We develop, implement and audit Carbon offset</b>
-					<br/>
-					<br/> Solar/Wind/Hydro Power Plant
-					<br/> Biomass Projects
-					<br/> Nature based solutions
-					<br/> Energy Efficiency Systems </p>
-				<h6 className="card-title">Carbon Offsetting Advocaacy</h6> </div>
-			<div className="card"> <img src={`images/background/03 png.png`} alt="" />
-				<p className="card-desc"> <b>Assist planning and auditing projects related to-</b>
-					<br/>
-					<br/> Zero Waste Discharge
-					<br/> Zero Liquid Discharge
-					<br/> Net Zero Methodology Implementation
-					<br/> </p>
-				<h6 className="card-title">Net Zero Methodology Implementation</h6> </div>
-			<div className="card"> <img src={`images/background/08 png.png`} alt="" />
-				<p className="card-desc"> <b>We perform LCAs for all relevant products by</b>
-					<br/>
-					<br/> Defining goal and scope
-					<br/> Life cycle Inventory Analysis
-					<br/> Life cycle Impact Assessment
-					<br/> </p>
-				<h6 className="card-title">Life-cycle Assessments</h6> </div>
-		</div>
-	</section>
-	<section id="section-contact" data-bgcolor="#f3f4f4">
+	<section id="section-contact" data-bgcolor="#ffffff">
 		<div className="container">
 			<div className="row">
 				<div className="col-lg-6 offset-lg-3">

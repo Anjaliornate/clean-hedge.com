@@ -772,7 +772,7 @@ header.header-mobile #menu-btn {
 /* ================================================== */
 
 section {
-	padding: 90px 0 90px 0;
+	padding: 80px 0 80px 0;
 	position: relative;
 }
 section:not(.relative){
@@ -5978,7 +5978,7 @@ video, object {
 	position: absolute;
 	width: 100%;
 	min-height: 100%;
-	background: rgba(20, 20, 20, .5);
+	/* background: rgba(20, 20, 20, .5); */
 }
 .de-video-overlay.dotted {
 	background: url(../images_02/dotted.png);
@@ -6038,14 +6038,14 @@ object {
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: rgba(30, 30, 30, .6);
+    /* background: rgba(30, 30, 30, .6); */
 }
 
 .de-video-overlay-dark {
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: rgba(0, 0, 0, .6);
+    /* background: rgba(0, 0, 0, .6); */
 }
 
 .de-video-overlay.dotted {
@@ -10829,8 +10829,8 @@ a, img {
   max-height: 550px;
   box-shadow:0px 0px 5px 5px rgb(2 2 2 / 7%);
   border-radius:15px 15px 15px 15px;
-  padding-top:40px;
-  padding-bottom:40px;
+  padding-top:10px;
+  padding-bottom:15px;
   
 }
 
@@ -10838,7 +10838,8 @@ a, img {
   display: block;
   text-align: center;
   color:#35404e;
-  font-size:13px;
+  font-size:15px;
+  padding-top: inherit;
 }
 
 .card img {

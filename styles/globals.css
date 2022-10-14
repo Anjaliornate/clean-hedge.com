@@ -20,11 +20,18 @@ a {
   
 }
 
+.txtj {
+  font-family: 'Nunito';
+  text-align: center;
+  font-size: medium;
+  
+}
+
 /* why Section */
 
 #myDIV {
-  animation: mymove 5s infinite;
-  border-top:3px solid green;
+  /* animation: mymove 5s infinite; */
+  /* border-top:3px solid green; */
   border-bottom:3px solid green;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -73,3 +80,15 @@ a {
 }
 
 /* 404 */
+
+
+/* Home Heading  */
+.v-center{
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+.img-size{
+  height: auto;
+  width:120px;
+}
