@@ -158,7 +158,7 @@ export default function Home() {
 			<div className="col-lg-4">
 				<div className="service-three__single wow flipInY" data-wow-delay="300ms" data-wow-duration="1500ms">
 					<div className="service-three__icon">
-						<div className="service-three__single-circle"></div><center><img src={`images/background/Variety.webp`} class="img-size" alt="" /></center></div>
+						<div className="service-three__single-circle"></div><center><img src={`images/background/Variety.webp`} className="img-size" alt="" /></center></div>
 						<center><h5>Variety!</h5></center>
 					<p className={ 'txtj'}>We can implement a diverse portfolio of nature and community-based projects across multiple sectors to widen your impact.</p>
 				</div>
@@ -166,7 +166,7 @@ export default function Home() {
 			<div className="col-lg-4">
 				<div className="service-three__single wow flipInY" data-wow-delay="0ms" data-wow-duration="1500ms">
 					<div className="service-three__icon">
-						<div className="service-three__single-circle"></div><center><img src={`images/background/personalized.webp`} class="img-size" alt="" /></center></div>
+						<div className="service-three__single-circle"></div><center><img src={`images/background/personalized.webp`} className="img-size" alt="" /></center></div>
 						<center><h5>Personalized</h5></center>
 					<p className={ 'txtj'}>CleanHedge recommends projects that match your requirements and check all the right boxes for your company.</p>
 				</div>
@@ -174,7 +174,7 @@ export default function Home() {
 			<div className="col-lg-4">
 				<div className="service-three__single wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
 					<div className="service-three__icon">
-						<div className="service-three__single-circle"></div><center><img src={`images/background/monitoring.webp`} class="img-size" alt="" /></center></div>
+						<div className="service-three__single-circle"></div><center><img src={`images/background/monitoring.webp`} className="img-size" alt="" /></center></div>
 						<center><h5>Transparent</h5></center>
 					<p className={ 'txtj'}>We ensure complete transparency in our operations, so you know that your money is making an actual impact.</p>
 				</div>
