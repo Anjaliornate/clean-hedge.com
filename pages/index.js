@@ -53,7 +53,7 @@ export default function Home() {
 								<div className="spacer-30"></div>
 								<div className="col-md-6 offset-md-3 text-center">
 									<p className="h1_big text-white" data-wow-delay=".75s">You Can Make a<br/>Difference.</p>
-									<div className="spacer-50"></div> <a className="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" href="#section-about">About Us</a> </div>
+									<div className="spacer-50"></div> <a className="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" href="#section-about">About Me</a> </div>
 							</div>
 						</div>
 					</div>
