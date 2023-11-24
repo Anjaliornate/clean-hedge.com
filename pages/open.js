@@ -75,7 +75,7 @@ export default function open({ data }) {
                                                 <p className={'txt'}>The most notable change was the 10x reduction in the minimum load requirement:<br></br>
 
                                                     •	Businesses with a sanctioned load of 100kW or more can purchase renewable energy from the open market.<br></br>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                   <br></br> •	Businesses with multiple connections within the same area, totaling 100kW or more, can also benefit from the policy.<br></br>
+                                                   <br></br> •	  ()Businesses with multiple connections within the same area, totaling 100kW or more, can also benefit from the policy.<br></br>
                                                 </p><br></br>
                                                 <p className={'txt'}>Captive consumers can access as much power as they need without encountering constraints. Furthermore, MERC has enabled individuals with rooftop solar installations to simultaneously procure energy from the green open-access market.
 
