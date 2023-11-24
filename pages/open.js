@@ -41,7 +41,7 @@ export default function open({ data }) {
                                                 <h2>An Effective Way to Reduce Costs and  <span className="id-color"> Carbon Footprint </span></h2> </center>
                                             <p className={'txtj'}>Green Open Access allows consumers to cut down their energy costs and emissions by directly procuring renewable energy from producers in the open market. <br></br>
 
-                                                It's an efficient way for businesses to transition to net zero without investing time or capital in the installation/ maintenance of a RE plant.<br></br>
+                                                It&apos;s an efficient way for businesses to transition to net zero without investing time or capital in the installation/ maintenance of a RE plant.<br></br>
 
                                                 <br></br>In a bid to promote green energy in the nation, the Indian government has made the green energy open access regulations particularly favourable for commercial and industrial consumers.
 
@@ -82,7 +82,7 @@ export default function open({ data }) {
                                                     The Maharashtra State Load Dispatch Centre and Maharashtra State Transmission Utility will act as the nodal agencies for the initiative.
                                                 </p>
                                                 <div className="spacer-10"></div>
-                                                <a class="btn" href="https://blog.clean-hedge.com/wp-content/uploads/2023/11/MERC-adopts-Green-Energy-Open-Access.pdf">
+                                                <a className="btn" href="https://blog.clean-hedge.com/wp-content/uploads/2023/11/MERC-adopts-Green-Energy-Open-Access.pdf">
                                                     <span className="btn-custom">Know More</span>
                                                 </a>
 
