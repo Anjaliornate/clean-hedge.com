@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "version": "0.1.0", 
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,7 +15,7 @@
     "vercel": "^24.2.3"
   },
   "devDependencies": {
-    "eslint": "8.14.0",
+    "eslint": "^8.14.0",
     "eslint-config-next": "12.1.5"
   }
 }
