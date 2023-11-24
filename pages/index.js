@@ -364,7 +364,7 @@ export default function Home() {
 	  <footer className="footer">
 		  <div className="container">
 			  <div className="row align-items-center">
-				  <div className="col-md-6 sm-text-center mb-sm-30"> Copyright 2022 - Clean Hedge </div>
+				  <div className="col-md-6 sm-text-center mb-sm-30"> Copyright 2022 - Clean Hedge--- </div>
 				  <div className="col-md-6 text-md-right text-sm-left">
 					  <div className="social-icons">
 					<a href="#"><i className="fa fa-facebook fa-lg"></i></a>
