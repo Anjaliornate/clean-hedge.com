@@ -27,7 +27,7 @@ export default function Home() {
 								  <li><a href="#section-about">About Us</a></li>
 								  <li><a href="#section-services">Services</a></li>
 								  <li><a href="#section-contact">Contact Us</a></li>
-								  <li><a href="/open">Green Open Acess</a></li>
+								  <li><a href="/open">Green Open Access</a></li>
 								  <li><a href="/blogs">Blogs</a></li>
   
 								  <li></li>
