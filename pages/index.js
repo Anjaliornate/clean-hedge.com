@@ -346,12 +346,12 @@ export default function Home() {
 				  <div className="col-md-4">
 					  <div className="wm-1"></div> <i className="icon_mobile id-color size40 mb20"></i>
 					  <h6 className="id-color">Call Us</h6>
-					  <p>+91-11-4353-6666</p>
+					  <p>+91-7304406336</p>
 				  </div>
 				  <div className="col-md-4">
 					  <div className="wm-1"></div> <i className="icon_house_alt id-color size40 mb20"></i>
 					  <h6 className="id-color">Visit Office</h6>
-					  <p>A-87, Okhla Phase – II New Delhi</p>
+					  <p>New Delhi: A-87, Okhla Phase – II <br></br>Mumbai: 88/B, Nariman Bhavan, Nariman Point </p>
 				  </div>
 				  <div className="col-md-4">
 					  <div className="wm-1"></div> <i className="icon_mail_alt id-color size40 mb20"></i>
