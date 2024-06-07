@@ -30,6 +30,7 @@ export default class blog_header extends Component {
 								<li><a href="/">About Us</a></li>
 								<li><a href="/">Services</a></li>
 								<li><a href="/">Contact Us</a></li>
+	                                                        <li><a href="/">Green Open Acess</a></li>
 								<li><a href="/blogs">Blogs</a></li>
 								<li></li>
 							</ul>
