@@ -75,14 +75,11 @@ export default function Home() {
 	  <div className="v-center">
 
 	  <h2> About <span className="id-color">Us</span></h2>
-
-<p className={'txtj'}>Cleanhedge is one of Indias fastest growing companies offering Future Energy Solutions Led by a team of entrepreneurs
+	  <p className={'txtj'}>Cleanhedge is one of Indias fastest growing companies offering Future Energy Solutions Led by a team of entrepreneurs
 	</p>
 	<p className={'txtj'}>having an in-depth understanding of consumer behavior and solutions for solar energy
 	</p>
-	
 	<h3> Until 31st March 2024 <span className="id-color"></span></h3>
-	
 	<p className={'txtj'}>We have over - 150 MW of Ground Mounted Projects <b>with a further 150MW under development </b>
 	   </p>
 	   <p className={'txtj'}><b>1,500+ Rooftop Projects </b>
@@ -92,11 +89,9 @@ export default function Home() {
 	   <h3>Our <span className="id-color"> History</span>
 	</h3>
 	<img className="img-fluid wow fadeInRight" src={`images/new/about.jpeg`} alt="" width="auto" height="304" />
-	< p className={'txtj'}>
-		<h3>Team <span className="id-color"></span></h3> 
-	   </p>
-
-	   <p className={'txtj'}>Mr. Vipul Joisher-Director 
+	<h3>Team<span className="id-color"></span>
+	</h3>
+	<p className={'txtj'}>Mr. Vipul Joisher-Director 
 	   </p>
 	   <p className={'txtj'}>Mr. Jayesh Bajaj-Director 
 	   </p>
@@ -104,12 +99,12 @@ export default function Home() {
 	   </p>
 	   <p className={'txtj'}>Mr. Aditya Goel-Director 
 	   </p>
-		<h2> Solution for <span className="id-color">  Sustainability </span>
-		</h2>
 	  </div>
 	  <div className="row align-items-center">
 		<div className="col-lg-6 mb-sm-30 text-center">
 		  <div className="de-images">
+	  <h2> Solution for <span className="id-color">  Sustainability </span>
+		  </h2>
 			<img className="di-small-2 wow fadeInLeft" src={`images/new/4.jpeg`} alt="" width="auto" height="130" />
 			<img className="img-fluid wow fadeInRight" src={`images/new/2.jpeg`} alt="" width="auto" height="304" />
 		  </div>
