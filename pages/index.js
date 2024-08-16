@@ -73,6 +73,37 @@ export default function Home() {
   <section id="section-about" data-bgcolor="White">
 	<div className="container">
 	  <div className="v-center">
+
+	  <h2> About <span className="id-color">Us</span></h2>
+
+<p className={'txtj'}>Cleanhedge is one of Indias fastest growing companies offering Future Energy Solutions Led by a team of entrepreneurs
+	</p>
+	<p className={'txtj'}>having an in-depth understanding of consumer behavior and solutions for solar energy
+	</p>
+	
+	<h3> Until 31st March 2024 <span className="id-color"></span></h3>
+	
+	<p className={'txtj'}>We have over - 150 MW of Ground Mounted Projects <b>with a further 150MW under development </b>
+	   </p>
+	   <p className={'txtj'}><b>1,500+ Rooftop Projects </b>
+	   </p>
+	   <p className={'txtj'}><b>INR 400 Cr Solar Component distribution business.</b>
+	   </p>
+	   <h3>Our <span className="id-color"> History</span>
+	</h3>
+	<img className="img-fluid wow fadeInRight" src={`images/new/about.jpeg`} alt="" width="auto" height="304" />
+	< p className={'txtj'}>
+		<h3>Team <span className="id-color"></span></h3> 
+	   </p>
+
+	   <p className={'txtj'}>Mr. Vipul Joisher-Director 
+	   </p>
+	   <p className={'txtj'}>Mr. Jayesh Bajaj-Director 
+	   </p>
+	   <p className={'txtj'}>Mr. Rohan Kilachand-Director
+	   </p>
+	   <p className={'txtj'}>Mr. Aditya Goel-Director 
+	   </p>
 		<h2> Solution for <span className="id-color">  Sustainability </span>
 		</h2>
 	  </div>
