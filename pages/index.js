@@ -253,29 +253,29 @@ export default function Home() {
 	</center>
 	<div className="cards">
 	  <div className="card">
-		<img src={`images/new/Rooftop.png`} alt="" />
-		{/* <p className="card-desc"></p> */}
-		<h6 className="card-title">Rooftop Solar Installations<br/></h6>
-	  </div>
-	  <div className="card">
 		<img src={`images/new/open Acess.png`} alt="" />
 		{/* <p className="card-desc"></p> */}
-		<h6 className="card-title">Open Access Solar Projects <br />  </h6>
+		<h6 className="card-title">Open Access<br/></h6>
 	  </div>
 	  <div className="card">
-		<img src={`images/new/carbon capture.png`} alt="" />
+		<img src={`images/new/Rooftop.png`} alt="" />
 		{/* <p className="card-desc"></p> */}
-		<h6 className="card-title">Carbon Capture Project Development<br/></h6>
+		<h6 className="card-title">Rooftop Solar Installations <br />  </h6>
+	  </div>
+	  <div className="card">
+		<img src={`images/new/Inroof.png`} alt="" />
+		{/* <p className="card-desc"></p> */}
+		<h6 className="card-title">Inroof<br/></h6>
 	  </div>
 	  <div className="card">
 		<img src={`images/new/net zero.png`} alt="" />
 		{/* <p className="card-desc"></p> */}
-		<h6 className="card-title">Net Zero Policy Implementation<br/></h6>
+		<h6 className="card-title">Green Certificates<br/></h6>
 	  </div>
 	  <div className="card">
 		<img src={`images/new/Sustanilibity .png`} alt="" />
 		{/* <p className="card-desc"></p> */}
-		<h6 className="card-title">Sustainability Certification Advisory<br/></h6>
+		<h6 className="card-title">Agrivoltics<br/></h6>
 	  </div>
 	</div>
   </section>
